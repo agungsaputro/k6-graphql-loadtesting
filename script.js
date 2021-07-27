@@ -1,7 +1,7 @@
 import http from "k6/http"; 
 import { sleep } from "k6"; 
 
-let accessToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7ImlwIjoiMTcyLjE2LjU5LjI1MiwgMTAuNDIuMC4wIiwiY2l0eSI6bnVsbCwidGltZXpvbmUiOm51bGwsImNvdW50cnkiOm51bGwsImxhdGl0dWRlIjpudWxsLCJsb25naXR1ZGUiOm51bGwsImJyb3dzZXIiOiJDaHJvbWUiLCJicm93c2VyVmVyc2lvbiI6IjkxLjAiLCJkZXZpY2UiOiJkZXNrdG9wIiwiZGV2aWNlQnJhbmQiOm51bGwsImRldmljZU1vZGVsIjpudWxsLCJvcyI6IkdOVS9MaW51eCIsIm9zVmVyc2lvbiI6bnVsbCwidXNlcklkIjoxODY5ODI5NiwiZXhwaXJlZEF0IjoiMjAyMS0wNy0yN1QwNjo1MzoyNC41NjlaIiwiZGVsZXRlZEF0IjpudWxsLCJpZCI6MzY5MSwiY3JlYXRlZEF0IjoiMjAyMS0wNy0yN1QwNTo1MzoyNC41MjRaIiwidXBkYXRlZEF0IjoiMjAyMS0wNy0yN1QwNTo1MzoyNC41MjRaIn0sImlhdCI6MTYyNzM2NTIwNH0.imGeapxaLNAHTyfH9ymZEEPhQocLEbP7LGiXO4VrZeg";   
+let accessToken = "";   
 
 export let options = {
     vus: 1, // 1 user looping for 1 minute
